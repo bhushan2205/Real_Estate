@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Real Estate - Sambhaji Nagar Properties</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="index.html">HomePraise</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="index.html">HOME</a></li>
+          <li class="link"><a href="index.html#about">ABOUT</a></li>
+          <li class="link"><a href="index.html#project">PROJECT</a></li>
+          <li class="link"><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn btn__primary" id="login">
+            <a href="login.html">Log In</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+
+        <div class="form-box login">
+          <h2 class="animation" style="--i: 0; --j: 21">Login</h2>
+          <form action="#">
+            <div class="input-box animation" style="--i: 1; --j: 22">
+              <input type="text" required />
+              <label>Username</label>
+              <i class="ri-user-3-fill"></i>
+            </div>
+            <div class="input-box animation" style="--i: 2; --j: 23">
+              <input type="password" required />
+              <label>Password</label>
+              <i class="ri-lock-2-fill"></i>
+            </div>
+            <button
+              type="submit"
+              class="btns animation"
+              style="--i: 3; --j: 24"
+            >
+              Login
+            </button>
+            <div class="logreg-link animation" style="--i: 4; --j: 25">
+              <p>
+                Don't have an account?
+                <a href="#" id="register-link">Sign Up</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="info-text login">
+          <h2 class="animation" style="--i: 0; --j: 20">Welcome Back!</h2>
+          <p class="animation" style="--i: 1; --j: 21">
+            Please log in using your perosnal information to stay connected with
+            us.
+          </p>
+        </div>
+        <div class="form-box register">
+          <h2 class="animation" style="--i: 17; --j: 0">Sign Up</h2>
+          <form action="#">
+            <div class="input-box animation" style="--i: 18; --j: 1">
+              <input type="text" required />
+              <label>Username</label>
+              <i class="ri-user-3-fill"></i>
+            </div>
+            <div class="input-box animation" style="--i: 19; --j: 2">
+              <input type="text" required />
+              <label>Email</label>
+              <i class="ri-mail-fill"></i>
+            </div>
+            <div class="input-box animation" style="--i: 20; --j: 3">
+              <input type="password" required />
+              <label>Password</label>
+              <i class="ri-lock-2-fill"></i>
+            </div>
+            <button
+              type="submit"
+              class="btns animation"
+              style="--i: 21; --j: 4"
+            >
+              Sign Up
+            </button>
+            <div class="logreg-link animation" style="--i: 22; --j: 5">
+              <p>
+                Already have account? <a href="#" id="login-link">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="info-text register">
+          <h2 class="animation" style="--i: 17; --j: 0">Welcome Back!</h2>
+          <p class="animation" style="--i: 18; --j: 1">
+            Please sign up using your perosnal information to stay connected
+            with us.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>HomePraise</h4>
+          <p>
+            Our team of seasoned professionals is committed to providing you
+            with exceptional services, in-depth market knowledge, and
+            personalized solutions tailored to your unique needs.
+          </p>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Company Info</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <a href="#">Terms</a>
+          <a href="#">Conditions</a>
+          <a href="#">Policy</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span> bhushan@gmail.com
+          </a>
+          <a href="#">
+            <span><i class="ri-phone-line"></i></span> +91 9543234555
+          </a>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright &copy; 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+  const wrapper = document.querySelector('.wrapper');
+  const registerLink = document.querySelector('#register-link');
+  const loginLink = document.querySelector('#login-link');
+
+  registerLink.onclick = () =>{
+      wrapper.classList.add('active');
+  }
+
+  loginLink.onclick = () =>{
+      wrapper.classList.remove('active');
+  }
+    </script>
+  </body>
+</html>
