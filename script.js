@@ -63,6 +63,8 @@ const scrollRevealOption = {
     spaceBetween: 30,
   });
 
+  // Click Button 
+
 let book = document.querySelectorAll(".book");
 
 for(let i = 0; i < book.length; i++) {
