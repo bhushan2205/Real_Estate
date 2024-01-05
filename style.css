@@ -460,7 +460,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (width < 768px) {
   .nav__bar {
     display: flex;
     flex-direction: column;
