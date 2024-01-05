@@ -298,16 +298,14 @@ transition-delay: 1.2s;
 @media only screen and (max-width: 600px){
 
     .wrapper{
-      width: 600px;
-      height: 450px;
+      width: 100vw;
     }
     .wrapper .form-box{
-      width: 40%;
-      height: 100%;
+      width: 40vw;
     }
     
     .wrapper .form-box.login{
-       padding: 0 30px 0 20px;
+       padding: 50px 30px 0 10px;
     }
     
     .wrapper .form-box.register{
@@ -350,6 +348,15 @@ transition-delay: 1.2s;
     padding: 0 150px 60px 20px;
     }
     
+    .wrapper .bg-animate{
+      transform: rotate(15deg) skewY(40deg);
+      }
+
+      .wrapper.active .bg-animate2{
+        transform: rotate(-16deg) skewY(-41deg);
+        transition-delay: 1.2s;    
+        }
+
     .info-text h2{
     font-size: 25px;
     }
